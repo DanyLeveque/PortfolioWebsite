@@ -1,0 +1,46 @@
+.heading {
+  position: relative;
+  margin-top: 60px;
+}
+
+.contact {
+  color: var(--text-color-dark);
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 5rem;
+  letter-spacing: 10px;
+  opacity: 0.2;
+}
+
+.message {
+  color: var(--accent-color);
+  text-transform: uppercase;
+  position: absolute;
+  font-size: 2.5rem;
+  top: 25%;
+  left: 15%;
+  letter-spacing: 4px;
+}
+
+form-section {
+  color: antiquevar(--text-color-dark);
+}
+
+textarea,
+input {
+  background-color: grey !important;
+  border-radius: 30px !important;
+  text-transform: uppercase !important;
+  font-family: Poppins !important;
+  border: 2px solid var(--accent-color) !important;
+  margin: 20px 0 !important;
+}
+
+textarea {
+  margin: 40px 0 !important;
+}
+
+form input::placeholder,
+textarea::placeholder {
+  color: var(--text-color-dark) !important;
+}

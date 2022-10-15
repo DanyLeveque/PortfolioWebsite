@@ -1,0 +1,36 @@
+.hero {
+  height: 100vh;
+  z-index: 99;
+}
+
+.hero:before {
+  content: '';
+  position: absolute;
+  z-index: 0;
+  right: 0;
+  width: 20%;
+  height: 100vh;
+  background: var(--accent-color);
+  clip-path: polygon(100px 0, 100% 0%, 100% 100%, 0 100%);
+}
+.portrait {
+  border-radius: 10%;
+  z-index: 1;
+  height: 500px;
+  width: 500px;
+  border: 7px solid var(--text-color-dark);
+  display: inline-block;
+}
+
+.brief {
+  font-family: 'Poppins';
+  color: var(--text-color-dark);
+  font-size: 1.5rem;
+  border-radius: 15px;
+  padding: 24px 24px;
+  width: 600px;
+}
+
+.highlight {
+  color: var(--accent-color) !important;
+}
