@@ -57,8 +57,4 @@
     display: flex;
     width: 100vw;
   }
-
-  .navigation {
-    position: sticky;
-  }
 }
