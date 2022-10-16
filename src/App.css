@@ -1,0 +1,12 @@
+:root {
+  --main-bg-color: #2e2e35;
+  --light-bg-color: white;
+  --accent-color: rgb(109, 187, 247);
+  --text-color-dark: white;
+  --text-color-light: black;
+}
+
+body {
+  font-family: 'Anton';
+  background-color: var(--main-bg-color);
+}

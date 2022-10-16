@@ -1,0 +1,23 @@
+.card {
+  width: 480px;
+  height: 500px;
+  color: grey;
+  background-color: var(--light-bg-color);
+  border-radius: 25px;
+  border: 5px solid var(--accent-color);
+  margin: 0 20px;
+}
+
+.card h2 {
+  color: var(--accent-color);
+  text-align: center;
+}
+
+.card-body {
+  font-size: 1.4rem;
+}
+
+strong {
+  color: var(--accent-color);
+  font-weight: 400;
+}
